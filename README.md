@@ -10,7 +10,7 @@ Programa para Windows que liga as impressoras térmicas do restaurante ao iMesa.
 
 ## Como instalar
 
-1. Acesse a página de [Releases](../../releases/latest) e baixe o arquivo `iMesa-AgenteImpressao-Setup-0.1.0.exe`.
+1. Acesse a página de [Releases](../../releases/latest) e baixe o arquivo `iMesa-AgenteImpressao-Setup-0.1.1.exe`.
 2. Execute o arquivo baixado.
 3. Durante o piloto, o Windows pode mostrar o aviso "editor desconhecido". Isso é esperado. Clique em **Mais informações** e depois em **Executar assim mesmo**.
 4. No painel do iMesa, vá em **Configurações → Agente de impressão** e gere o código de pareamento. Digite esse código no programa quando ele pedir.
@@ -22,13 +22,13 @@ Programa para Windows que liga as impressoras térmicas do restaurante ao iMesa.
 Para ter certeza de que o arquivo baixado está íntegro, abra o PowerShell na pasta do download e rode:
 
 ```powershell
-(Get-FileHash .\iMesa-AgenteImpressao-Setup-0.1.0.exe).Hash
+(Get-FileHash .\iMesa-AgenteImpressao-Setup-0.1.1.exe).Hash
 ```
 
 O resultado deve ser igual a:
 
 ```
-2606225b6dd274f08df8731ef66647cc600b8102267be278b614be0d4d275597
+51dafb197449ce9523a3bdb86cbef409438631fd36af16d569336188c39d5982
 ```
 
 ## Suporte
