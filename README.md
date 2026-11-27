@@ -8,9 +8,11 @@ Programa para Windows que liga as impressoras térmicas do restaurante ao iMesa.
 - Um computador que fique ligado durante todo o expediente, na mesma rede das impressoras.
 - Internet.
 
+> Quem usa iFood: atualize para a versão 0.1.2. As versões 0.1.0 e 0.1.1 não imprimem o ticket de produção dos pedidos do iFood.
+
 ## Como instalar
 
-1. Acesse a página de [Releases](../../releases/latest) e baixe o arquivo `iMesa-AgenteImpressao-Setup-0.1.1.exe`.
+1. Acesse a página de [Releases](../../releases/latest) e baixe o arquivo `iMesa-AgenteImpressao-Setup-0.1.2.exe`.
 2. Execute o arquivo baixado.
 3. Durante o piloto, o Windows pode mostrar o aviso "editor desconhecido". Isso é esperado. Clique em **Mais informações** e depois em **Executar assim mesmo**.
 4. No painel do iMesa, vá em **Configurações → Agente de impressão** e gere o código de pareamento. Digite esse código no programa quando ele pedir.
@@ -22,13 +24,13 @@ Programa para Windows que liga as impressoras térmicas do restaurante ao iMesa.
 Para ter certeza de que o arquivo baixado está íntegro, abra o PowerShell na pasta do download e rode:
 
 ```powershell
-(Get-FileHash .\iMesa-AgenteImpressao-Setup-0.1.1.exe).Hash
+(Get-FileHash .\iMesa-AgenteImpressao-Setup-0.1.2.exe).Hash
 ```
 
 O resultado deve ser igual a:
 
 ```
-51dafb197449ce9523a3bdb86cbef409438631fd36af16d569336188c39d5982
+bd4b302fa0c01fd9d98f7ef74c08193c083dd74093d334994b84c0cdbd49ad0a
 ```
 
 ## Suporte
